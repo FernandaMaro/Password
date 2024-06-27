@@ -5,6 +5,8 @@ let passwordEL1 = document.getElementById("password-el")
 let passwordEL2 = document.getElementById("password-el2")
 let generateBtn = document.getElementById("generate-btn")
 generateBtn.addEventListener("click", function getPassword(){
+    passwordEL1.textContent = "";
+    passwordEL2.textContent = "";
     for (let i=0; i<15;i++){
         let randomCharacters1 = Math.floor(Math.random()*characters.length)
         let randomCharacters2 = Math.floor(Math.random()*characters.length)
