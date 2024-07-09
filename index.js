@@ -23,7 +23,7 @@ function toggleTheme() {
   let isDarkMode = body.classList.contains('dark-mode');
 
   themeButton.setAttribute('aria-checked', isDarkMode);
-  themeButton.textContent = isDarkMode ? 'Dark Mode' : 'Light Mode';
+  themeButton.textContent = isDarkMode ? 'Light Mode' : 'Dark Mode';
 }
 
 
