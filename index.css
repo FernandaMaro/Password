@@ -31,20 +31,25 @@ p {
     text-align: left;
     margin: 5px 0px 0px 0px;
 }
-
-#generate-btn {
+.btn{
     background-color: #10B981;
+    color: #FFFFFF;
     border: none;
-    width: 200px;
-    height: 40px;
     padding: 5px 15px;
     border-radius: 6px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 500;
+}
+
+#generate-btn {
+    width: 200px;
+    height: 40px;
     line-height: 24px;
-    color: #FFFFFF;
     margin: 50px 0px 0px 0px;
+}
+#toggleTheme{
+    margin: 10px 0px 0px 20rem ;
 }
 
 #line {
@@ -72,4 +77,11 @@ p {
     color: #5DEF92;
 ;
 
+}
+
+.dark-mode{
+    background-color:#1F2937;
+}
+.dark-mode p, .dark-mode #black{
+    color: #F9FAFB;
 }
